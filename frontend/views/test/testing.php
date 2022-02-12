@@ -1,0 +1,15 @@
+<?php
+
+echo 'we are here';
+
+?>
+
+<h1>Welcome to my first controller</h1>
+<h2><?=$name?></h2>
+<h3><?=$number12?></h3>
+<?php
+
+foreach($array as $arr){
+    echo $arr.'<br>';
+}
+?>
